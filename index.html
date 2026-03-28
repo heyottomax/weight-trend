@@ -11,15 +11,15 @@
 .twocol{display:grid;grid-template-columns:1.15fr .85fr;gap:18px} .callouts{display:grid;gap:14px} .note{padding:16px 18px;border-radius:18px;background:rgba(255,255,255,.03);border:1px solid rgba(148,163,184,.12)} .note h3{margin:0 0 6px;font-size:16px} .note p{margin:0;color:var(--muted);line-height:1.5;font-size:14px} .table{width:100%;border-collapse:collapse} .table th,.table td{padding:10px 8px;border-bottom:1px solid rgba(148,163,184,.12);text-align:left} .table th{color:#cbd5e1} .footer{margin-top:16px;color:var(--muted);font-size:13px}
 @media (max-width:900px){.hero{flex-direction:column;align-items:flex-start} .meta{width:100%} .twocol{grid-template-columns:1fr}}
 </style></head><body><main class="shell">
-<section class="hero"><div><div class="eyebrow">Bodyweight + cut dashboard</div><h1>Weight Trend</h1><div class="sub">A clean trend line with moving average, pace, and the food/activity logs we actually have. Gaps are shown honestly — this is useful ops data, not fantasy bookkeeping.</div></div><div class="meta"><div class="k">Updated</div><div class="v">Sat Mar 28, 12:20 PM CT</div></div></section>
+<section class="hero"><div><div class="eyebrow">Bodyweight + cut dashboard</div><h1>Weight Trend</h1><div class="sub">A clean trend line with moving average, pace, and the food/activity logs we actually have. Gaps are shown honestly — this is useful ops data, not fantasy bookkeeping.</div></div><div class="meta"><div class="k">Updated</div><div class="v">Sat Mar 28, 12:21 PM CT</div></div></section>
 <section class="grid">
 <section class="card"><div class="label">Latest</div><div class="value">173.6<span>lb</span></div></section>
 <section class="card"><div class="label">Change</div><div class="value">-5.0<span>lb</span></div></section>
 <section class="card"><div class="label">Weekly pace</div><div class="value">-1.8<span>lb/wk</span></div></section>
 <section class="card"><div class="label">Range</div><div class="value">173.6–179.2<span>lb</span></div></section>
-<section class="card"><div class="label">Logged food days</div><div class="value">0<span>days</span></div></section>
-<section class="card"><div class="label">Avg logged calories</div><div class="value">—<span></span></div></section>
-<section class="card"><div class="label">Logged activity</div><div class="value">0<span>min</span></div></section>
+<section class="card"><div class="label">Logged food days</div><div class="value">2<span>days</span></div></section>
+<section class="card"><div class="label">Avg logged calories</div><div class="value">1565<span>cal</span></div></section>
+<section class="card"><div class="label">Logged activity</div><div class="value">170<span>min</span></div></section>
 </section>
 <section class="panel"><div class="panel-head"><h2>Weight trend</h2><p>Daily weigh-ins with 3-point moving average and overall trend</p></div>
 <svg viewBox="0 0 940 360" preserveAspectRatio="xMidYMid meet">
@@ -36,7 +36,7 @@
 <div class="legend"><span class="l1">Actual weigh-ins</span><span class="l2">3-point moving average</span><span class="l3">Overall trend</span></div>
 </section>
 <section class="twocol">
-  <section class="panel"><div class="panel-head"><h2>Food & activity log</h2><p>Only days with actual logs</p></div><table class="table"><thead><tr><th>Date</th><th>Calories</th><th>Activity</th><th>Strength</th><th>Notes</th></tr></thead><tbody><tr><td colspan="5">No food/activity logs yet</td></tr></tbody></table></section>
+  <section class="panel"><div class="panel-head"><h2>Food & activity log</h2><p>Only days with actual logs</p></div><table class="table"><thead><tr><th>Date</th><th>Calories</th><th>Activity</th><th>Strength</th><th>Notes</th></tr></thead><tbody><tr><td>Mar 26</td><td>1350 cal</td><td>80 min</td><td>—</td><td>sandwich_and_chips~1000 + handful_snack~90 + granola_bar_130 + pretzel_130</td></tr><tr><td>Mar 15</td><td>1730–1830 cal</td><td>90 min</td><td>Yes</td><td>—</td></tr></tbody></table></section>
   <section class="callouts">
     <section class="note"><h3>What’s cool here</h3><p>The page now combines weight trend with the food/activity evidence we actually have, so you can see bodyweight movement alongside logged intake and training.</p></section>
     <section class="note"><h3>What to add next</h3><p>Protein grams, sleep, step count, and a simple “on track / off track” score would make this much more powerful.</p></section>
